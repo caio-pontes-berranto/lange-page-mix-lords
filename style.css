@@ -1,0 +1,89 @@
+*{
+    
+    margin: 0px;
+    
+}
+
+#superior{
+    background-image: url(logo/banner.png);
+    padding: 5% 9% 0% 0%;
+    background-color: rgb(1, 29, 29);
+}
+
+#logo{
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#titulo{
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#TEXT{
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 20px 50px 20px 50px;
+}
+   
+    
+
+#textointroducao{
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 20px 50px 20px 50px;
+}
+
+#carrossel{
+   background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+#gatiakuta{
+    display: none;
+}
+
+#onepiece{
+    display: flex;  
+}
+
+#dandadan{
+    display: flex;
+}
+
+#hachira{
+    display: none;
+}
+
+.video{
+    padding: 2% 10% 5% 2%; 
+    margin: 0px 30px 0px 0%;
+}
+
+#SetaDireita{
+    padding-right: 10%;
+    padding-left: 0%;
+    display: flex;
+}
+
+#SetaDireita2{
+    padding-right: 10%;
+    padding-left: 0%;
+    display: none;
+}
+
+#SetaEsquerda{
+    margin-left: 50px;
+    padding-right: 10%;
+    padding-left: 1%;
+    display: flex;
+}
+
+#SetaEsquerda2{
+    margin-left: 50px;
+    padding-right: 10%;
+    padding-left: 1%;
+    display: none;
+}
