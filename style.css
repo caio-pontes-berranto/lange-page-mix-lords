@@ -1,89 +1,107 @@
-*{
-    
+* {
+
     margin: 0px;
-    
+
 }
 
-#superior{
+#superior {
     background-image: url(logo/banner.png);
     padding: 5% 9% 0% 0%;
     background-color: rgb(1, 29, 29);
 }
 
-#logo{
+#logo {
     width: 200px;
     height: auto;
     margin-left: 20px;
 }
 
-#titulo{
+#titulo {
     font-family: 'Arial Black', Arial, sans-serif;
     color: rgb(0, 0, 0);
 }
 
-#TEXT{
-    font-family: 'Arial Black', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    margin: 20px 50px 20px 50px;
-}
-   
-    
-
-#textointroducao{
+#TEXT {
     font-family: 'Arial Black', Arial, sans-serif;
     color: rgb(0, 0, 0);
     margin: 20px 50px 20px 50px;
 }
 
-#carrossel{
-   background-color: rgb(0, 0, 0);
+
+
+#textointroducao {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 20px 50px 20px 50px;
+}
+
+#carrossel {
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
 }
 
-#gatiakuta{
+#gatiakuta {
     display: none;
 }
 
-#onepiece{
-    display: flex;  
-}
-
-#dandadan{
+#onepiece {
     display: flex;
 }
 
-#hachira{
+#dandadan {
+    display: flex;
+}
+
+#hachira {
     display: none;
 }
 
-.video{
-    padding: 2% 10% 5% 2%; 
+.video {
+    padding: 2% 10% 5% 2%;
     margin: 0px 30px 0px 0%;
 }
 
-#SetaDireita{
+#SetaDireita {
     padding-right: 10%;
     padding-left: 0%;
     display: flex;
 }
 
-#SetaDireita2{
+#SetaDireita2 {
     padding-right: 10%;
     padding-left: 0%;
     display: none;
 }
 
-#SetaEsquerda{
+#SetaEsquerda {
     margin-left: 50px;
     padding-right: 10%;
     padding-left: 1%;
     display: flex;
 }
 
-#SetaEsquerda2{
+#SetaEsquerda2 {
     margin-left: 50px;
     padding-right: 10%;
     padding-left: 1%;
     display: none;
 }
+
+#Formulario {
+    margin: 0%;
+    align-items: center;
+    display: grid; 
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: black;
+}
+
+#Formulario2{
+     margin: 0%;
+    align-items: center;
+    display: grid; 
+    grid-auto-flow: column;
+    columns: auto;
+}
+
