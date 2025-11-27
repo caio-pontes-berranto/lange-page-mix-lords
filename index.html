@@ -12,7 +12,7 @@
 
 <body>
    <!--- superior --->
-
+<div id="fundoinferior">
    <div id="superior">
 
       <a href="https://www.youtube.com/results?search_query=mixlords"> <img id="logo" src="logo/logo.png" alt="ERRO">
@@ -20,7 +20,7 @@
 
    </div>
 
-   <div>
+   <div id="cortitulo">
       <h1 id="titulo">Bem-vindo ao site oficial do canal MixLORDS </h1>
       <p id="textointroducao"> Aqui voce vai encontrar os melhores reps de anime do momento <br>
          se voce tem seu personagem favorito do mundo dos animes e sempre <br>
@@ -31,18 +31,15 @@
          apenas escreva o nome do seu personagem no questionario abaixo <br>
          e se inscreva no canal !!
       </p>
+      <h1 id="titulovideo"><br>   ESSAS SÃO ALGUMAS DE NOSSAS MUSICAS </h1>
    </div>
 
-   <!--questionario-->
-   <div id="questionario">
-      <form action="" inp></form>
-   </div>
 
 
 
 
    <!--- video --->
-
+   
    <div id="carrossel">
       <img onclick="rolarEsquerda()" class="setas" id="SetaEsquerda" src="logo/seta-esquerda.svg" alt="">
       <img onclick="rolarEsquerda2()" class="setas" id="SetaEsquerda2" src="logo/seta-esquerda2.svg" alt="">
@@ -56,7 +53,7 @@
          title="MixLords &quot;Do Lixo ao Céu&quot; Rudo Surebrec (GACHIAKUTA)" frameborder="0"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="502" height="250" class="video" id="onepiece" src="https://www.youtube.com/embed/p9zmPQ5aDK0"
+      <iframe width="502" height="287" class="video" id="onepiece" src="https://www.youtube.com/embed/p9zmPQ5aDK0"
          title="MixLORDS &quot;nika deus do sol&quot; LUFFY [ONE PIECE]" frameborder="0"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -66,19 +63,26 @@
          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       <img onclick="rolarDireita()" class="setas" id="SetaDireita" src="logo/seta-direita.svg" alt="">
-      <img onclick="rolarDireita2()" class="setas" id="SetaDireita2" src="logo/seta-direita2.svg" alt="">
-
+      <img onclick="rolarDireita2()" class="setas" id="SetaDireita2" src="logo/seta-direita2.svg" alt=""> 
    </div>
 
-   <!--formulario-->
+
+       <!--formulario-->
+       <h1 id="t1">Escreva aqui seu nome a qual o seu Personagen favorito <br> do muundo geek,ele pode virar sua musica favorita</h1>
    <div id="Formulario">
-      <form id="Formulario2" action="">
-         <input type="text" name="nome" required>
-         <div>
-         <input type="text" name="personagem" required>
+      <form id="Formulario2" action="https://api.sheetmonkey.io/form/uNB1zBMaEmmeHTJsVMAKjp" method="post">
+         <input id="fnome" type="text" name="nome" required placeholder="NOME"> <br>
+         <input id="fpersonagen" type="text" name="personagem" required placeholder="PERSONAGEM">
+
+         <button id="button" type="submit">
+            <p id="textobutton">CONFIRME AQUI</p> <img src="logo/click.png" width="50" height="50" alt="">
+         </button>
       </form>
    </div>
    </div>
+
+  
+
 
 
 
